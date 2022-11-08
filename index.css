@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 70px 0;
+  width: 60%;
+  margin: 0px auto;
+}
+.container .tab_slide {
+  position: relative;
+}
+.container .slider {
+  position: relative;
+  margin-top: 100px;
+}
+.container .slider .slayder {
+  overflow: hidden;
+}
+.container .otkaz {
+  position: absolute;
+  top: -60px;
+  right: 0;
+  display: flex;
+}
+.container .otkaz .hozirgi {
+  font-size: 40px;
+}
+.container .otkaz .jami {
+  padding-top: 18px;
+  font-size: 20px;
+}
+.container .otkaz button {
+  padding: 5px 10px;
+  font-size: 25px;
+}
+.container .box {
+  transition: all 0.3s ease-in-out;
+}
+.container img {
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */

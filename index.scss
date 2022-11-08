@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 70px 0;
+    width: 60%;
+    margin: 0px auto;
+
+    .tab_slide {
+        position: relative;
+    }
+
+    .slider {
+        position: relative;
+        margin-top: 100px;
+        .slayder {
+            overflow: hidden;
+        }
+    }
+
+    .otkaz {
+        position: absolute;
+        top: -60px;
+        right: 0;
+        display: flex;
+
+        .hozirgi {
+            font-size: 40px;
+        }
+
+        .jami {
+            padding-top: 18px;
+            font-size: 20px;
+
+        }
+
+        button {
+            padding: 5px 10px;
+            font-size: 25px;
+        }
+    }
+    .box{
+        transition:all 0.3s ease-in-out;
+    }
+    
+    img {
+        width: 100%;
+    }
+}
